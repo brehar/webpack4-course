@@ -1,0 +1,21 @@
+{
+	"name": "webpack4-course",
+	"version": "0.0.1",
+	"private": true,
+	"description": "Project for the Webpack 4: Beyond the Basics course",
+	"main": "src/main.js",
+	"scripts": {
+		"dev": "webpack-dev-server --config=config/webpack.dev.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brehar/webpack4-course.git"
+	},
+	"author": "Brett Hartman <brett.hartman@mac.com> (http://bretthartman.me)",
+	"license": "MIT",
+	"dependencies": {
+		"webpack": "^4.26.1",
+		"webpack-cli": "^3.1.2",
+		"webpack-dev-server": "^3.1.10"
+	}
+}
